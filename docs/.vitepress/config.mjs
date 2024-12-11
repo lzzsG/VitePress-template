@@ -30,8 +30,8 @@ export default defineConfig({
       },
     ],
 
-    logo: '/favicon.svg',
-    // siteTitle: '----',
+    logo: '/favicon.svg',  // 替换为你的logo
+    // siteTitle: '----',  // 可自定义标题，不设置则默认为title
 
     footer: {
       // message: 'Released under the MIT License.',
@@ -76,17 +76,16 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lzzsG' }
+      { icon: 'github', link: 'https://github.com/lzzsG/VitePress-template' }
     ]
 
   },
   rewrites: {
-    'md': '1/md',
-    '': ''
+    'md': '1/md',  // 可以在这重定向
   },
   cleanUrls: true,
   markdown: {
-    // math: true
+    // math: true   // 数学公式，需要 npm add -D markdown-it-mathjax3
 
   }
 })

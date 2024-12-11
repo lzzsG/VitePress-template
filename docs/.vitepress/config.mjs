@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/VitePress-template/',
   title: "Lzzs Notebook",
   description: "A VitePress Site ,for Lzzs CS000 Notebook",
   themeConfig: {

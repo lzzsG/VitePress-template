@@ -77,7 +77,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lzzsG/VitePress-template' }
-    ]
+    ],
+    search: {
+      provider: 'local'
+    }
+
 
   },
   rewrites: {
